@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "user-angular-firebase": {
+      "hosting": {
+        "booking.com": [
+          "user-angular-firebase"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "user-angular-firebase"
+  }
+}

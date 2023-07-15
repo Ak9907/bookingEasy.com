@@ -1,0 +1,114 @@
+.booking_logo{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    margin: 7px;
+    width: 20rem;
+    height: 12rem;
+    border-radius: 30px;
+}
+
+
+.banner{
+    height: 36rem;
+    width: 100%;
+}
+.input{
+    height: 18rem;
+    h2{
+        font-size: 3rem;
+    }
+    input{
+        height: 2rem;
+        border: 2px solid;
+        border-radius: 5px;
+        position: relative;
+        left: 6rem;
+    }
+    button{
+        width: 18rem;
+        height: 3rem;
+        margin-top: 20px;
+        margin-right: 10px;
+        font-weight: bold;
+        color: white;
+        font-size: 2rem;
+        background-color: indianred;
+        left: 6rem;
+        position: relative;
+    }
+
+   
+}
+.seats{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+   width: 65%;
+   gap: 40px;
+    img{
+    width: 6rem;
+    height: 6rem;
+    border: 3px solid;
+    border-radius: 7px;
+   }
+}
+.mybtn{
+    width: 40%;
+        /* display: grid; */
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: flex-start; */
+        top: 10rem;
+        position: relative;
+        flex-direction: column;
+        left: 12rem;
+    span{
+        font-weight: bold;
+        font-size: 2rem;
+    }
+    button{
+        width: 2rem;
+        height: 2rem;
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+       gap: 2rem;
+    }
+    .btn1{
+        background-color: coral;
+    } 
+    .btn2{
+        background-color: white;
+    }
+}
+.seatsBooked{
+    justify-content: center;
+    display: grid;
+    border: 2px solid;
+    margin: 3rem;
+    width: 45rem;
+    height: 11rem;
+    left: 30%;
+    position: relative;
+}
+.available{
+    top: 15rem;
+    position: relative;
+    h2{
+        font-size: 3rem;
+        background-color: cornflowerblue;
+        color: cornsilk;
+    }
+}
+.seatNumbers{
+    display: flex;
+    gap: 2em;
+    background-color: aquamarine;
+    justify-content: center;
+    bottom: 22px;
+    position: relative;
+    color: red; 
+    font-size: 1.5rem;
+}
+
+
